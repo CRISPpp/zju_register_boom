@@ -17,16 +17,7 @@ cookies = {
     "iPlanetDirectoryPro": "",
     "stu-token": "",
 }
-cookies = {
-    "JSESSIONID": "CFF4A67BA67FF90664E358CA0510EEF7",
-    "_csrf": "S8mwplVi9KWoF2WQ0TlCeNKhcpPcCrki%2F2cCMHtF%2B7c%3D",
-    "_pv0": "635kHYG9rOi%2BBHMDMh5a3ge0wLF7O1ynje4tWtPxln9061MQ4XWy9WqY47oLL%2FLoGkyt%2F4mpqlZNZdFc4a60QsHAmpJRogA%2By1CQc22GucyebomEkxfp2klEEdYjQ1%2BFZnJFiicV%2F3rbz09w%2FKBZ3krzUo2G4XCXWBRWXGQaznmhQbwHGBDlVFK8wzteCXMkhyFlJN201HGHVcBf3bPuExNZoewcLqZDZUmkA0%2FQak18TDU6cjAk%2BDTvUn%2BHfXIuV91yGmJ%2BUXNT4lWxNxB60DwmpQWo7ko1g8t4rO0AX4PAejS63LbtqdRTv0NV9U074lgEqx6TtHSD0rvUK9gVhcGWlFaEYKgFktl8kUWsZT%2BFsEsyBGC3C6YX2zm1SgBkWGJbPOGUCMcbPsF7Ro%2BMPPvLdTWtbfjqorf8a6K%2FQEM%3D",
-    "_pf0": "KKL%2BQ7DiP3SCcpQrwmFzEgXLgaPaBx4zJDL0WMTo4rY%3D",
-    "_pc0": "ZF1AKfG8yOMoTRJS6fMbxorNsAaiDlQpwiWPi6bR30w%3D",
-    "_pm0":"5TfJ%2BQU%2FgbLUVgsjZmtXW2TnY6FG1Do7oz04YKnXkd4%3D",
-    "iPlanetDirectoryPro": "Z0aunJC8FRTz08zLcU3z9X4MZW%2Bgftdhhplq%2Bx5m3nY%2BbJrt9wlb2X%2FRWZO4T92rbPb1KSvVz7Jy%2BiwC32VEhRuRg1evNpK%2BSPYfMnmYeOz0x2pOmJyQxDBYf4x8Av8g1%2BmL5mkLsznOQ8tbHLhziG7rc23fPUEslhd%2BMd27hMPTEmaytMMQ9U5Orq0gPi5MJPRyCiTqmjPJ%2FsK2BXpVZh6ASpaZh6Bx4m7zD3SJlcSDMK%2FGM3jN5yPioDwU1TiJvdvoOgnLOP51DREAUf4o9TOnLDAWfAQRaOf9j9lQ5M%2FAzhA5UXaF71dle6T5hzZfdGF81IBEOl4%2FmvfVU4iu5J7dsxmPwqBK%2BPjGws3BDmk%3D",
-    "stu-token": '81d68095d86f92bd1cb7df5aaf015cd8'
-}
+
 for key,val in cookies.items():
     if val=="":
         raise Exception("请先将Cookie信息替换为你自己的Cookie信息")
